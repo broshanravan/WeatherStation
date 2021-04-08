@@ -17,6 +17,13 @@ public class WeatherStationController {
     @Autowired
     WeatherReportOrganizerImpl weatherReportOrganizer;
 
+    /**
+     * Controller function to get list of towns
+     * Starting with a particular letter
+     * @param startingLetter
+     * @param model
+     * @return
+     */
     @RequestMapping(value="/towsList", params="towns.do",method= RequestMethod.POST)
     @ResponseBody
     public String retrieveExistingBooking(@RequestParam String startingLetter, ModelMap model){

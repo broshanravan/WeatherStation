@@ -9,6 +9,20 @@ public class MainDetail {
     private double groundLevel;
     private double humidity;
 
+    public MainDetail(double temperature, double temperatureMin, double temperatureMax, double pressure, double seaLevel, double groundLevel, double humidity) {
+        this.temperature = temperature;
+        this.temperatureMin = temperatureMin;
+        this.temperatureMax = temperatureMax;
+        this.pressure = pressure;
+        this.seaLevel = seaLevel;
+        this.groundLevel = groundLevel;
+        this.humidity = humidity;
+    }
+
+    public MainDetail(){
+
+    }
+
     /**
      * Retrieves the value for temperature
      * @return

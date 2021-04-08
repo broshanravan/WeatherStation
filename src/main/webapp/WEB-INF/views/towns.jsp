@@ -16,6 +16,13 @@
                         <label>Please enter The first letter</label>
                     </td>
                     <td><input type ="text" name="starting_letter"/></td>
+                    <td>
+                        <div class="btn-wrapper">
+                            <button class="btn" action="updateBooking">
+                                <span class="btn-text-one">Update</span>
+                            </button>
+                        </div>
+                    </td>
                 </tr>
                 <tr>
                     <td><label>Please enter The first letter</label></td>
@@ -24,14 +31,6 @@
                           <option value="select">Please Select</option>
                           <option value="${name}"/>Volvo</option>
                         </select
-                    </td>
-                    <td>
-                        <div class="btn-wrapper">
-                            <button class="btn" action="updateBooking">
-                                <span class="btn-text-one">Update</span>
-                            </button>
-                        </div>
-
                     </td>
                 </tr>
             </table>
