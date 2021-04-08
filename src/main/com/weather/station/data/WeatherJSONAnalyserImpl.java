@@ -30,6 +30,14 @@ public class WeatherJSONAnalyserImpl {
         return sb.toString();
     }
 
+    /**
+     * Reading list of weather reports  from
+     * the JSON URL
+     * @param url
+     * @return
+     * @throws IOException
+     * @throws JSONException
+     */
     public  List<WeatherReport> readJsonFromUrl(String url) throws IOException, JSONException {
         InputStream is = new URL(url).openStream();
         List<WeatherReport> weatherReportList = new LinkedList<WeatherReport>();

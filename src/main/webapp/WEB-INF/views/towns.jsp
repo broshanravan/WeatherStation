@@ -25,6 +25,14 @@
                           <option value="${name}"/>Volvo</option>
                         </select
                     </td>
+                    <td>
+                        <div class="btn-wrapper">
+                            <button class="btn" action="updateBooking">
+                                <span class="btn-text-one">Update</span>
+                            </button>
+                        </div>
+
+                    </td>
                 </tr>
             </table>
         </form>
